@@ -49,36 +49,6 @@ The objective of this Proof of Concept (PoC) is to demonstrate the technical fea
 ```
 ![](https://github.com/ng-n/AsciiArtify/blob/main/.data/login.gif)
 
-4. Configuring GitOps Repositories
-- In the ArgoCD user interface, click on "Settings" in the left sidebar.
-- Under the "Repositories" section, click on "Connect Repo" to add your Git repository containing the AsciiArtify application's configuration and mainfests.
-- Provide the necessary information, such as the repository URL and Name.
-![](https://github.com/ng-n/AsciiArtify/blob/main/.data/settings.gif)
-
-5. Deploying the AsciiArtify Application
-- In the ArgoCD user interface, click on "Applications" in the left sidebar.
-- Click on "New App" and fill in the required details, including the application name, the Git repository and path configured in the previous step.
-- Select the Automatic synchronization and namespace creation.
-- Review and confirm the application details, then click on "Create" to deploy the AsciiArtify application.
-- ArgoCD will automatically synchronize the application with the desired state defined in the Git repository.
-- Monitor the ArgoCD user interface to observe the deployment progress.
-
-![](https://github.com/ng-n/AsciiArtify/blob/main/.data/settings.gif)
-
-6. Verifying the Deployment
-- Once the AsciiArtify application is successfully deployed, verify its status and ensure that the desired resources are created in the Kubernetes cluster:
-For example, the resource called `ambassador`
-```
-    kubectl port-forward -n demo svc/ambassador 8088:80
-```
-![](https://github.com/ng-n/AsciiArtify/blob/main/.data/ambassador_port_forward.gif)
-
-- Open another terminal and verify it:
-```
-    curl -F 'image=@/tmp/g.png' localhost:8088/img/
-```
-![](https://github.com/ng-n/AsciiArtify/blob/main/.data/curl_google_image.gif)
-
 ## Conclusion
 
 By following the above steps, inclduing the port forwarding, you will be able to access the ArgoCD user interface through a local port on your machine. Please ensure that port 8080 is not occupied by any other process on your system. 
