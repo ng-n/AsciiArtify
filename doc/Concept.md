@@ -58,7 +58,7 @@
 | Start up speed             |   Slow   | Medium |Fast|
 | Resource usage             | intensive| mid intensive |  less intensive |
 | Additional Feature         | Dashboard, web UI | None by default, </br> can be extended with plugins | Dashboard, web UI |
-| Documentation             |   Good     | not as well-documented as Minikube, </br> and Guide is hard to read   | Good, Guide is easy to read  |
+| Documentation             |   Good     | not as well-documented as Minikube, </br> Guide is hard to read   | Good, </br> Guide is easy to read  |
 | Community Support          |  Active     | Active | Active |
 
 ### Additional highlights on choosing KinD vs. k3d:
@@ -77,8 +77,6 @@
 
 When it comes to local development, developers can utilize Minikube to create a single-node cluster. However, if scalability becomes a priority in the late development stage, transitioning from Minikube to other tools can be a time-consuming and resource-intensive process. For developers who prioritize rapid setup, flexibility and scalability, k3d can be a better option than Minikube and KinD. 
 
-Thus, I would suggest the k3d since k3d provides a lightweight and fast soluition for creating and tearing down Kubernetes cluster, enabling developers to quickly set up and scale their development environemnts. 
-
 Podman with its open-soruce nature, offers users the freedom to use, modify, and distribute the software without the restrictions imposed by Docker's licensing terms. Additionaly, Podman can serve as an alternative container runtime when used in conjunction with k3d, enabling users to leverage the benefits of both tools in creating and managing Kubernetes clusters. The instruction of using Podman instead of Docker is [here](https://k3d.io/v5.4.1/usage/advanced/podman/).
 
-
+Thus, I would suggest the k3d since k3d provides a lightweight and fast soluition for creating and tearing down Kubernetes cluster, enabling developers to quickly set up and scale their development environemnts. 
