@@ -3,7 +3,7 @@
 The objective of this deployment is to set up the AsciiArtify Minimum Viable Product (MVP) by leveraging ArgoCD for continuous deployment and synchronization with a Git repository.
 
 ## Prerequisites
-- A functioning k3d Kubernetes custer with ArgoCD already deployed (following the previous steps)
+- A functioning k3d Kubernetes custer with ArgoCD already deployed (following the previous [steps](https://github.com/ng-n/AsciiArtify/blob/main/doc/POC.md))
 - Familiarity with Git and the AsciiArtify application repository: https://github.com/den-vasyliev/go-demo-app
 
 ## Steps
