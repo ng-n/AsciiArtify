@@ -51,13 +51,13 @@ The objective of this Proof of Concept (PoC) is to demonstrate the technical fea
 
 4. Configuring GitOps Repositories
 - In the ArgoCD user interface, click on "Settings" in the left sidebar.
-- Under the "Repositories" section, click on "New Repository" to add your Git repository containing the AsciiArtify application's configuration and mainfests.
-- Provide the necessary information, such as the repository URL, credentials (if required), and the path to the application manifests.
+- Under the "Repositories" section, click on "Connect Repo" to add your Git repository containing the AsciiArtify application's configuration and mainfests.
+- Provide the necessary information, such as the repository URL and Name.
 ![](https://github.com/ng-n/AsciiArtify/blob/main/.data/settings.gif)
 
 5. Deploying the AsciiArtify Application
 - In the ArgoCD user interface, click on "Applications" in the left sidebar.
-- Click on "New Application" and fill in the required details, including the application name, the Git repository and path configured in the previous step.
+- Click on "New App" and fill in the required details, including the application name, the Git repository and path configured in the previous step.
 - Select the Automatic synchronization and namespace creation.
 - Review and confirm the application details, then click on "Create" to deploy the AsciiArtify application.
 - ArgoCD will automatically synchronize the application with the desired state defined in the Git repository.
