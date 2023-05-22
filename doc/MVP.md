@@ -13,10 +13,10 @@ The objective of this deployment is to set up the AsciiArtify Minimum Viable Pro
 - Provide the necessary information, such as the repository URL and Name.
 ![](https://github.com/ng-n/AsciiArtify/blob/main/.data/settings.gif)
 
-2. Deploying the AsciiArtify Application and Enable Automatic Synchronization
+2. Deploying an Application in ArgoCD nd Enable Automatic Synchronization
 - In the ArgoCD user interface, click on "Applications" in the left sidebar.
 - Click on "New App" and fill in the required details, including the application name, the Git repository and path configured in the previous step.
-- Select the Automatic synchronization and namespace creation.
+- Select the Automatic synchronization and namespace creation, and choose "helm" in the "Path" field.
 - Review and confirm the application details, then click on "Create" to deploy the AsciiArtify application.
 - ArgoCD will automatically synchronize the application with the desired state defined in the Git repository.
 - Monitor the ArgoCD user interface to observe the deployment progress.
