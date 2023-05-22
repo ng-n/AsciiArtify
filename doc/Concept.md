@@ -37,7 +37,7 @@
 - k3d is more scalable and resource-efficient than Minikube and KinD.
 - k3d is not as easy to use as Minikube.
 
-![](https://github.com/ng-n/AsciiArtify/.data/k3d.gif)
+![](https://github.com/ng-n/AsciiArtify/blob/main/.data/k3d.gif)
 
 ### Comparison Table:
 | Feature                    | Minikube | kind | k3d |                      
