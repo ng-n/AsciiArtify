@@ -13,7 +13,7 @@
   
   Minikube is a popular tool used to run a single-node Kubernetes cluster inside a virtual machine (VM) for testing and development purposes.
   
-## Key features:
+### Key features:
 - It is designed to be easy to use and is a good choice for beginners who want to learn about Kubernetes. 
 - Supported OS and architecture: Windows, macOS, Linux, x86 and amd64. 
 - Automation capability: can be automated using Ansible, Chef and Puppet tools.
@@ -36,6 +36,8 @@
 - k3d designed to be a "one" binary distribution that is easy to install and run.
 - k3d is more scalable and resource-efficient than Minikube and KinD.
 - k3d is not as easy to use as Minikube.
+
+![](https://github.com/ng-n/AsciiArtify/.data/k3d.gif)
 
 ### Comparison Table:
 | Feature                    | Minikube | kind | k3d |                      
