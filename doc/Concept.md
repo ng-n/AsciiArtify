@@ -18,6 +18,8 @@
 - Supported OS and architecture: Windows, macOS, Linux, x86 and amd64. 
 - Automation capability: can be automated using Ansible, Chef and Puppet tools.
 
+![](https://github.com/ng-n/AsciiArtify/blob/main/.data/minikube.gif)
+
 ## KinD (Kubernetes in Docker) 
 
   KinD is a tool initially designed for testing Kubernetes but has established itself as a suitable tool for running Kubernetes in local environments and CI pipelines.
