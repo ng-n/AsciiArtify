@@ -33,6 +33,7 @@ For example, the resource called `ambassador`
 
 - Open another terminal and verify it:
 ```
+    wget -O /tmp/g.png https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
     curl -F 'image=@/tmp/g.png' localhost:8088/img/
 ```
 ![](https://github.com/ng-n/AsciiArtify/blob/main/.data/curl_google_image.gif)
